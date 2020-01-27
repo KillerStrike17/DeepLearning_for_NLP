@@ -8,7 +8,6 @@ Word Embedding is used for model that have learned to map set of words or phrase
 
 One such popular word embedding model is GloVe by Stanford
 
-
 ### [GloVe](https://nlp.stanford.edu/projects/glove/)
 
 * It is an unsupervised learning algorithm 
@@ -17,8 +16,6 @@ One such popular word embedding model is GloVe by Stanford
 
 * In transfer learning it is used as Word Embedding Layer
 
-
-
 ## Best Results
 
 | Sr No. | Dimensions | BatchSize | Optimizer | Embedding Constraint | Train Accuracy | Validation Accuracy | Accuracy & Loss Graph | Remarks |
@@ -26,4 +23,4 @@ One such popular word embedding model is GloVe by Stanford
 
 
 
-**Note:** The rest of the grid search results can be viewed in the colab file and embedding_constraint parameter is working only in keras and not in tensorflow binding of keras.
+**Note:** The rest of the grid search results can be viewed in the colab file and *embedding_constraint* parameter is working only in keras and not in tensorflow binding of keras.
