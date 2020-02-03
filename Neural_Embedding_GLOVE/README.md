@@ -40,4 +40,5 @@ One such popular word embedding model is GloVe by Stanford
 * When the sample size is 8000 words, it is gives a decent accuracy of 83-84% in all the cases which is pretty good based on the training conditions. It overfits but, some tweaks can be made.
 
 * When there is too many sample size which is 20000 words where as embedding layer just have 10000, it is forced to learn only half of the data, hence the accurayc is stuck at 50%. 
+
 **Note:** The rest of the grid search results can be viewed in the colab file and *embedding_constraint* parameter is working only in keras and not in tensorflow binding of keras.
