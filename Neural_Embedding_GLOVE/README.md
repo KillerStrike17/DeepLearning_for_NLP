@@ -18,6 +18,8 @@ One such popular word embedding model is GloVe by Stanford
 
 ## Best Results(used UnitNorm Embedding Constraint)
 
+All the plots and results are in the notebook
+
 | Sr No. | Train Sample Size | Dimensions | Train Accuracy | Validation Accuracy | Remarks |
 | --- | --- | --- | ---| --- | --- |
 | 1 | 2000 | 50 | 99.95% | 50.37% | The validation accuracy remains constant whereas the loss increases |
