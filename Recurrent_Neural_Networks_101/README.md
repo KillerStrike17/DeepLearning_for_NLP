@@ -4,6 +4,8 @@ The Dataset worked on is IMDB Movie Reviews, Reuters, MNIST and Random Generated
 
 ## Time Series Prediction
 
+[Code](https://github.com/KillerStrike17/DeepLearning_for_NLP/blob/master/Recurrent_Neural_Networks_101/Time_Series_Prediction.ipynb)
+
 Here I Generated some random set of numbers and tried to predict the future number. As they are random numbers, hence I did not expect much accuracy. This exercise was to get started with Recurrent Neural Networks.
 
 There are 1000 random points generated and then they are combined to form a group of 4 consecutive points and the 5th point as target variable. 
