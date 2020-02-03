@@ -28,3 +28,7 @@ Dataset = 1,2,3,4 -> 5
 |5| Increasing the dataset | 2000 | 4 | Increasing the dataset should increase the accuracy, but as the dataset is randomly generated, the model now has to learn 1600 random words and predict 400 instead of 800 and 200. Thus making it difficult |
 |6| Increasing step size to 40| 1000 | 40 | Increasing the dimension means the network can noe look into 40 numbers rather than 4 to decide the next one which is good and results convey the same |
 |7| Replacing relu with TanH | 1000 | 4 | Tan explodes on slight variation as it tries to fit in the number between -1 to 1 where as relu gives a gradual increase, hence that leads to much better and accurate pridictions |
+
+## IRNN
+
+![Code]()
