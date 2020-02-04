@@ -31,4 +31,20 @@ Dataset = 1,2,3,4 -> 5
 
 ## IRNN
 
-![Code]()
+[Code](https://github.com/KillerStrike17/DeepLearning_for_NLP/blob/master/Recurrent_Neural_Networks_101/IRNN.ipynb)
+
+Here, I tried to replicate [IRNN](http://arxiv.org/pdf/1504.00941v2.pdf), but did some modifications on it to check the output.
+
+### Observation from experiments
+
+RMS Prop is used instead of SGD because it is more stable.
+
+| SR No. |Experiment | Result | Summary |
+| --- | --- | --- | --- |
+| 1 | Initialized model with all random paramters with 1024 batch size | Train Accuracy = 11.24% & Test Accuracy = 11.37% | The model trains very slow, after 10 epochs the accuracy is 11% |
+| 2 | Initialized model kernel Initializer and Recurrent Initilizers with 32 batch size | Train Accuracy = 22.64% & Test Accuracy = 23.62% | The model trains much better than before |
+| 3 | Initialized model kernel Initializer and Recurrent Initilizers with 32 batch size | Train Accuracy = 59.96% & Test Accuracy = 61.00% | The model trains very slow but train much better than before |
+| 4 | Added a new layer with random params to experiment3| Train Accuracy = 41.03% & Test Accuracy = 40.83% | The model trains very slow, and even the accuracy is poor as compared to experiment 3 |
+
+
+## Simple RNN Over IMDB Dataset
