@@ -49,6 +49,8 @@ RMS Prop is used instead of SGD because it is more stable.
 
 ## Simple RNN Over IMDB Dataset
 
+[Code](https://github.com/KillerStrike17/DeepLearning_for_NLP/blob/master/Recurrent_Neural_Networks_101/SimpleRNN_for_IMDB_Dataset.ipynb)
+
 In this, I worked on text Classification over [IMDB Dataset](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). The problem was to classify the sentiment as negative or positive. The experiment over the basic model are:
 
 | SR No. |Experiment | Result | Summary |
@@ -56,3 +58,9 @@ In this, I worked on text Classification over [IMDB Dataset](https://www.kaggle.
 | 1 | Added a new Layer to the initial Model | Train Accuracy : Test Accuracy | The accuracy is pretty good over this basic model|
 | 2 | Added a new Layer to the initial Model | Train Accuracy : Test Accuracy | The Accuracy of the model increases indicating that the model has generalised well |
 | 3 | Activation of final layer is changed to Relu | Train Accuracy : Test Accuracy | The Model doesnot Train well |
+
+## Simple RNN Over Reuters Dataset
+
+[Code](https://github.com/KillerStrike17/DeepLearning_for_NLP/blob/master/Recurrent_Neural_Networks_101/SimpleRNN_Over_Reuters_Dataset.ipynb)
+
+In this I worked on text classification again but with more categories i.e.46 classes. I worked on [Reuters Dataset](https://www.kaggle.com/nltkdata/reuters)
