@@ -33,7 +33,7 @@ Dataset = 1,2,3,4 -> 5
 
 [Code](https://github.com/KillerStrike17/DeepLearning_for_NLP/blob/master/Recurrent_Neural_Networks_101/IRNN.ipynb)
 
-Here, I tried to replicate [IRNN](http://arxiv.org/pdf/1504.00941v2.pdf), but did some modifications on it to check the output.
+Here, I tried to replicate [IRNN](http://arxiv.org/pdf/1504.00941v2.pdf), but did some modifications on it to check the output. The dataset i worked on in it is [MNIST](http://yann.lecun.com/exdb/mnist/)
 
 ### Observation from experiments
 
@@ -48,3 +48,11 @@ RMS Prop is used instead of SGD because it is more stable.
 
 
 ## Simple RNN Over IMDB Dataset
+
+In this, I worked on text Classification over [IMDB Dataset](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). The problem was to classify the sentiment as negative or positive. The experiment over the basic model are:
+
+| SR No. |Experiment | Result | Summary |
+| --- | --- | --- | --- |
+| 1 | Added a new Layer to the initial Model | Train Accuracy : Test Accuracy | The accuracy is pretty good over this basic model|
+| 2 | Added a new Layer to the initial Model | Train Accuracy : Test Accuracy | The Accuracy of the model increases indicating that the model has generalised well |
+| 3 | Activation of final layer is changed to Relu | Train Accuracy : Test Accuracy | The Model doesnot Train well |
