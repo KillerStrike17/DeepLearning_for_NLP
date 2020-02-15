@@ -64,3 +64,13 @@ In this, I worked on text Classification over [IMDB Dataset](https://www.kaggle.
 [Code](https://github.com/KillerStrike17/DeepLearning_for_NLP/blob/master/Recurrent_Neural_Networks_101/SimpleRNN_Over_Reuters_Dataset.ipynb)
 
 In this I worked on text classification again but with more categories i.e.46 classes. I worked on [Reuters Dataset](https://www.kaggle.com/nltkdata/reuters)
+
+The experiments I conducted in it are:
+
+
+| SR No. |Experiment | Result | Summary |
+| --- | --- | --- | --- |
+| 1 |  Testing the affect of batchsize on model, Batchsize of 512 | Train Accuracy: 90% Test Accracy: 34% |there wont be any change in the model summary, the results may very based on the dataset and model overfits |
+| 2 |  Testing the affect of batchsize on model, Batchsize of 64 | Train Accuracy: 93% Test Accracy: 41%% |there wont be any change in the model summary, the results may very based on the dataset|
+
+All the experiments I conducted was to understand RNNs, and how do they work. 
